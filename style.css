@@ -1,0 +1,257 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+body{
+	background-image:url("img/bg-img.avif");
+	background-size:auto;
+	background-position:center;
+	background-repeat:no-repeat;
+}
+.page01>h1{
+	font-size:50px;
+	color: #b4b4b4;
+	position:absolute;
+	left:380px;
+	top:125px;
+	filter: drop-shadow(2px 4px 6px black);
+}
+.card{
+	width:400px;
+	height:200px;
+	border-radius:10px;
+	position:absolute;
+	top:381px;
+	left:500px;
+	-webkit-transform:translateY(-50%);
+	transform:translateY(-50%);
+	backdrop-filter: blur(10px);
+	background:transparent;
+	box-shadow:0px 0px 10px 0px #5a4b4b;
+}
+.card>span.bank-name1{
+	font-size:20px;
+	position:absolute;
+	top: 11px;
+    right: 48px;
+	color: #777070;
+}
+.card>span.bank-name2{
+	font-size:20px;
+	position:absolute;
+	top:30px;
+	right:36px;
+	color: #777070;
+}
+.card>img.gold{
+	position:relative;
+    top: 32%;
+    width: 10%;
+    border-radius: 20%;
+    left: 6%;
+}
+.card>img.logo {
+    position: relative;
+    top: -14%;
+    width: 25%;
+    left: 2%;
+	filter:drop-shadow(2px 4px 6px black);
+}
+.card>p{
+	font-size:26px;
+	position: absolute;
+    top: 98px;
+    left: 40px;
+    color: #777070;
+}
+.card>p.name{
+	font-size:17px;
+	position: absolute;
+    top: 135px;
+    left: 40px;
+    color: #777070;
+}
+.card>img.rupay{
+	position: absolute;
+    width: 30%;
+    right: 11px;
+    bottom: 34px;
+    filter: drop-shadow(2px 4px 6px black);
+}
+.card>p.debit{
+	font-size: 19px;
+    position: absolute;
+    top: 159px;
+    color: #777070;
+    left: 311px;
+    font-weight: bold;
+}
+.card>p>span{
+	font-size: 21px;
+}
+.hide{
+	display:none;
+}
+.pin-box>h1{
+	font-size:50px;
+	color: #b4b4b4;
+	position:absolute;
+	left: 650px;
+    top: 160px;
+	filter: drop-shadow(2px 4px 6px black);
+}
+.pin-code{
+	position: absolute;
+    top: 265px;
+    left: 655px;
+}
+.pin-code>input{
+	padding:5px;
+	border-radius:5px;
+	filter: drop-shadow(2px 4px 6px black);
+}
+
+.pin-submit{
+	position: absolute;
+    top: 333px;
+    left: 711px;
+}
+.pin-submit>button{
+	display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: gray;
+    border: 1px inset #f1f1f1;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+.pin-submit>button:hover{
+	background-color:black;
+}
+.pin-submit>button:active{
+	box-shadow:0px 0px 2px 3px #f1f1f1;
+}
+
+.acc-box>h1{
+	font-size:50px;
+	color: #b4b4b4;
+	position:absolute;
+	left: 550px;
+    top: 160px;
+	filter: drop-shadow(2px 4px 6px black);
+}
+.acc-btn{
+	position: absolute;
+    top: 257px;
+    left: 624px;
+}
+.acc-btn>button,.optBtn>button,.with-submit>button,.cash-submit>button,.p-change-submit>button{
+	background-color:gray;
+	color:#fff;
+	border: 1px inset #f1f1f1;
+}
+.acc-btn>button:hover,.optBtn>button:hover,.with-submit>button:hover,.cash-submit>button:hover,.p-change-submit>button:hover{
+	background-color:black;
+	border: 1px inset #f1f1f1;
+}
+.acc-btn>button:focus,.optBtn>button:focus,.with-submit>button:focus,.cash-submit>button:focus,.p-change-submit>button:focus{
+	box-shadow:0px 0px 2px 3px #f1f1f1;
+}
+.p-change-submit>button:active{
+	background-color: #f1f1f1;
+}
+.accOpt>h1{
+	font-size:50px;
+	color: #b4b4b4;
+	position:absolute;
+	left: 578px;
+    top: 160px;
+	filter: drop-shadow(2px 4px 6px black);
+}
+.optBtn>button{
+	width:10%;
+}
+.optBtn>button.btn1{
+	position: absolute;
+    bottom: 280px;
+    left: 300px;
+}
+.optBtn>button.btn2{
+	position: absolute;
+    bottom: 150px;
+    left: 300px;
+}
+.optBtn>button.btn3{
+	position: absolute;
+    bottom: 280px;
+    right: 300px;
+}
+.optBtn>button.btn4{
+	position: absolute;
+    bottom: 150px;
+    right: 300px;
+}
+
+.with-box>h1,.cash-box>h1,.p-change-box>h1{
+	font-size:50px;
+	color: #b4b4b4;
+	position:absolute;
+	left: 600px;
+    top: 160px;
+	filter: drop-shadow(2px 4px 6px black);
+}
+.with-code,.cash-code{
+	position: absolute;
+    top: 265px;
+    left: 655px;
+}
+.with-code>input,.cash-code>input,.pinCge>input{
+	padding:5px;
+	border-radius:5px;
+	filter: drop-shadow(2px 4px 6px black);
+}
+
+.with-submit,.cash-submit{
+	position: absolute;
+    top: 333px;
+    left: 711px;
+}
+.with-AMt>h1,.cash-AMt>h1{
+	font-size: 50px;
+    color: #b4b4b4;
+    padding:30px 10px;
+	text-align:center;
+    filter: drop-shadow(2px 4px 6px black);
+}
+
+.pin01{
+	position: absolute;
+    top: 300px;
+    left: 680px;
+}
+.pin02{
+	position: absolute;
+    top: 350px;
+    left: 680px;
+}
+.pin03{
+	position: absolute;
+    top: 400px;
+    left: 680px;
+}
+.p-change-submit{
+	position: absolute;
+    top: 500px;
+    left: 728px;
+}
